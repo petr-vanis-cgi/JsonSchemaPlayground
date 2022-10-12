@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Message",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "something": {
+      "type": "string",
+      "description": ""
+    },
+    "somethingElse": {
+      "type": "string",
+      "description": ""
+    },
+    "metadata": {
+      "description": "whatever can go here",
+      "type": "object"
+    }
+  },
+  "required": [
+    "something",
+    "somethingElse",
+    "metadata"
+  ]
+}
